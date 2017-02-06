@@ -49,3 +49,5 @@ title( title_string );
 filename = sprintf( "compare_%s_%s", version_old, version_new );
 
 print( filename, '-dpng' );
+set(gcf(),'visible','on');
+sleep(6)
